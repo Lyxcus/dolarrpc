@@ -16,7 +16,7 @@ rpc.on("ready", () => {
         state: "" + moment().format('LLL') + "",
 
         assets: {
-          large_image: conf.largeImage,
+          large_image: "dolar",
           large_text: conf.largeImageText
         },
 
@@ -41,7 +41,7 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-  clientId: conf.appId
+  clientId: "922570634599465051"
 })
 
 

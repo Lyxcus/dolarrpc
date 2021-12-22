@@ -1,9 +1,7 @@
 {
-  "appId": "Uygulama İD'niz",
   "label1": "1. buton yazı",
-  "URL1": "https://",
+  "URL1": "1. buton link",
   "label2": "2. buton yazı",
-  "URL2": "https://",
-  "largeImage": "oynuyor kısmında gorunen resım",
+  "URL2": "2. buton link",
   "largeImageText": "resım ustune geldıgınde cıkan yazı"
 }
