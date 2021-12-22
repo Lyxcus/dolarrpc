@@ -6,5 +6,5 @@
 4) indirme işlemi bittikten sonra **node rpc.js** yazıp enter 'a basın.
 
 
-###Görünümü:
+### Görünümü:
 ![resim](https://cdn.upload.systems/uploads/tz8u308g.png)
