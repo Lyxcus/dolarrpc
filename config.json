@@ -1,19 +1,9 @@
 {
-  "id": "922570634599465051",
-  "details": "null",
-  "state": "null",
-  "largeImageKey": "null",
-  "largeImageText": "null",
-  "smallImageKey": "null",
-  "smallImageText": "null",
-  "buttons": [
-    {
-      "label": "null",
-      "url": "https://"
-    },
-    {
-      "label": "null",
-      "url": "https://"
-    }
-  ]
+  "appId": "Uygulama İD'niz",
+  "label1": "1. buton yazı",
+  "URL1": "https://",
+  "label2": "2. buton yazı",
+  "URL2": "https://",
+  "largeImage": "oynuyor kısmında gorunen resım",
+  "largeImageText": "resım ustune geldıgınde cıkan yazı"
 }

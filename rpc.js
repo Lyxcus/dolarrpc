@@ -1,12 +1,13 @@
 const fetch = require("node-fetch")
 const RPC = require("discord-rpc");
 const moment = require("moment")
+const conf = require("./config.json")
 const rpc = new RPC.Client({
   transport: "ipc"
 })
 rpc.on("ready", () => {
   setInterval(function () {
-    fetch("https://api.bigpara.hurriyet.com.tr/doviz/headerlist/anasayfa").then( async r => {
+    fetch("https://api.bigpara.hurriyet.com.tr/doviz/headerlist/anasayfa").then(async r => {
       const json = await r.json();
       // console.log(json)
       const dolarobj = json.data.filter(c => c.SEMBOL == "USDTRY")[0]
@@ -17,18 +18,18 @@ rpc.on("ready", () => {
         state: "" + moment().format('LLL') + "",
 
         assets: {
-          large_image: "dolar",
-          large_text: "Dolar"
+          large_image: conf.largeImage,
+          large_text: conf.largeImageText
         },
 
         buttons: [
           {
-            "label": "Site",
-            "url": "https://lyxcus.com",
+            "label": conf.label1,
+            "url": conf.URL1,
           },
           {
-            "label": "Discord",
-            "url": "https://dc.lyxcus.com"
+            "label": conf.label2,
+            "url": conf.URL2
           }
         ],
         instance: true
@@ -36,15 +37,13 @@ rpc.on("ready", () => {
       }
 
       rpc.request("SET_ACTIVITY", { pid: process.pid, activity: activity });
-
-      console.log("dolar " + dolarobj.SATIS + " TL");
     })
   }, 5000)
 
 })
 
 rpc.login({
-  clientId: "922570634599465051"
+  clientId: conf.appId
 })
 
 
