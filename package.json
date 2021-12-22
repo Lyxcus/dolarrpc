@@ -1,0 +1,16 @@
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rpc.js",
+  "scripts": {
+    "test": "node rpc.js"
+  },
+  "author": "Lyxcus",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.6"
+  }
+}
