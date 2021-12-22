@@ -9,9 +9,7 @@ rpc.on("ready", () => {
   setInterval(function () {
     fetch("https://api.bigpara.hurriyet.com.tr/doviz/headerlist/anasayfa").then(async r => {
       const json = await r.json();
-      // console.log(json)
       const dolarobj = json.data.filter(c => c.SEMBOL == "USDTRY")[0]
-      // console.log(dolarobj)
       moment.locale("TR")
       const activity = {
         details: "Dolar " + dolarobj.SATIS + " TL",
