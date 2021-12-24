@@ -1,6 +1,6 @@
 # Kurulum
 
-1)**Node.js** [buradan](https://nodejs.org/en/)'i indirip kurun.
+1) **Node.js** [buradan](https://nodejs.org/en/)'i indirip kurun.
 2) Dosyaları indirip zipten çıkarın.
 3) Çıkardığınız klasörün içindeki **config.json** dosyasını kendinize göre düzenleyin.
 4) Çıkardığınız klasörün içinde **SHIFT + Sağ tık**'a basıp **Komut penceresini burada aç**'a tıklayın.
