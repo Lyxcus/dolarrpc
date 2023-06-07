@@ -8,7 +8,7 @@
 6) indirme işlemi bittikten sonra **node rpc.js** yazıp enter 'a basın.
 
 
-Daha fazla yardım için discord [Lyxcus#5757](https://discord.com/users/448063081688596481)
+Daha fazla yardım için discord [Lyxcus#0001](https://discord.com/users/448063081688596481)
 
 ### Görünümü:
 ![resim](https://cdn.upload.systems/uploads/tz8u308g.png)
